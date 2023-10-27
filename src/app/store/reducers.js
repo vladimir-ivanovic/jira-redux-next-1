@@ -1,5 +1,5 @@
 const initialState = {
-    tasks: [],
+    tasks: [{id: 1, title:"first task"}, {id: 2, title:"second task"}],
   };
   
   const rootReducer = (state = initialState, action) => {
