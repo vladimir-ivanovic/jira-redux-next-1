@@ -1,3 +1,19 @@
+## My notes
+
+1. node version v18.17.0
+
+2. Run 'npm run dev' command on root folder (jira-redux-1)
+
+3. install json server
+    npm install -g json-server
+
+4. Run json server on port 500:
+    npx json-server --watch db.json --port 5000
+    
+    Available data on port http://localhost:5000/tasks
+
+## - #############################################################
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
